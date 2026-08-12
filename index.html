@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Campus Compass</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+
+<h1>🧭 Campus Compass</h1>
+
+<p>Your guide to university life</p>
+
+</div>
+
+
+<div class="intro">
+
+<h2>Navigate Your Campus Journey</h2>
+
+<p>
+Campus Compass is a simple student website
+that helps with academics, well-being and
+personal reflection.
+</p>
+
+</div>
+
+<div class="box">
+
+<h2>📚 Academic Tools</h2>
+
+
+<h3>Attendance Calculator</h3>
+
+<input type="number"
+id="attended"
+placeholder="Classes attended">
+
+<input type="number"
+id="total"
+placeholder="Total classes">
+
+<button onclick="attendance()">
+Calculate
+</button>
+
+<p id="attendanceResult"></p>
+
+
+<h3>GPA Calculator</h3>
+
+<input type="number"
+id="g1"
+placeholder="Course 1">
+
+<input type="number"
+id="g2"
+placeholder="Course 2">
+
+<input type="number"
+id="g3"
+placeholder="Course 3">
+
+<input type="number"
+id="g4"
+placeholder="Course 4">
+
+<button onclick="gpa()">
+Calculate GPA
+</button>
+
+<p id="gpaResult"></p>
+
+</div>
+
+
+<div class="box">
+
+<h2>🌱 Well-being</h2>
+
+<h3>How are you feeling today?</h3>
+
+<button onclick="mood('😊 You are having a good day!')">
+😊 Happy
+</button>
+
+<button onclick="mood('😐 Take things one step at a time.')">
+😐 Okay
+</button>
+
+<button onclick="mood('😔 Be gentle with yourself today.')">
+😔 Sad
+</button>
+
+<button onclick="mood('😟 Take a short break and breathe.')">
+😟 Stressed
+</button>
+
+<p id="moodResult"></p>
+
+
+<h3>Stress Self-Check</h3>
+
+<p>
+Rate your current stress from 1 to 5.
+</p>
+
+<input type="number"
+id="stress1"
+min="1"
+max="5"
+placeholder="Concentration">
+
+<input type="number"
+id="stress2"
+min="1"
+max="5"
+placeholder="Feeling overwhelmed">
+
+<input type="number"
+id="stress3"
+min="1"
+max="5"
+placeholder="Relaxing">
+
+<button onclick="stress()">
+Check Stress
+</button>
+
+<p id="stressResult"></p>
+
+</div>
+
+
+<div class="box">
+
+<h2>💌 Digital Time Capsule</h2>
+
+<p>
+Write a message for your future self.
+</p>
+
+<textarea id="message"
+placeholder="Dear Future Me..."></textarea>
+
+<input type="date" id="date">
+
+<button onclick="capsule()">
+🔒 Seal My Time Capsule
+</button>
+
+<p id="capsuleResult"></p>
+
+</div>
+
+
+<div class="box">
+
+<h2>📖 My Semester Story</h2>
+
+<p>
+🌱 <b>The Beginning:</b>
+A new semester and new goals.
+</p>
+
+<p>
+📚 <b>The Journey:</b>
+Classes, assignments, exams and challenges.
+</p>
+
+<p>
+⭐ <b>The Growth:</b>
+Every challenge helped me learn something new.
+</p>
+
+<p>
+🎯 <b>What's Next:</b>
+Keep learning and moving forward.
+</p>
+
+</div>
+
+
+<div class="footer">
+
+<p>
+🧭 Campus Compass —
+Your journey, your direction.
+</p>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
