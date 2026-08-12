@@ -1,0 +1,134 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: hsl(222, 68%, 83%);
+color: #110c4b;
+}
+
+
+/* Header */
+
+.header {
+    text-align: center;
+    background-image: url(https://img.magnific.com/free-vector/young-students-walking-front-university-college-building-flat-vector-illustration-cartoon-people-relaxing-sitting-grass-campus_74855-8747.jpg?semt=ais_test_b&w=740&q=80);
+    height: 300px;
+    padding-top: 50px;
+    
+}
+
+
+
+.header h1 {
+font-size: 45px;
+margin: 10px;
+}
+
+.header p {
+font-size: 18px;
+}
+
+
+/* Introduction */
+
+.intro {
+text-align: center;
+padding: 35px 20px;
+}
+
+.intro h2 {
+font-size: 30px;
+}
+
+
+/* Main boxes */
+
+.box {
+background: rgb(255, 211, 139);
+width: 80%;
+max-width: 800px;
+
+margin: 25px auto;
+padding: 30px;
+
+border-radius: 15px;
+
+box-shadow: 0 5px 15px #e9b88d;
+}
+
+.box h2 {
+color: #1e093c;
+}
+
+.box h3 {
+margin-top: 25px;
+}
+
+
+/* Inputs */
+
+input,
+textarea {
+width: 90%;
+
+padding: 12px;
+
+margin: 6px 0;
+
+border: 1px solid #f5d2df;
+
+border-radius: 7px;
+}
+
+textarea {
+height: 100px;
+}
+
+
+/* Buttons */
+
+button {
+background:rgb(25, 67, 173);
+color: white;
+
+border: none;
+
+padding: 10px 18px;
+
+margin: 6px;
+
+border-radius: 7px;
+
+cursor: pointer;
+}
+
+button:hover {
+background: rgb(85, 120, 179);
+}
+
+
+/* Results */
+
+#attendanceResult,
+#gpaResult,
+#moodResult,
+#stressResult,
+#capsuleResult {
+font-weight: bold;
+
+color: #19011c;
+
+margin-top: 15px;
+}
+
+
+/* Footer */
+
+.footer {
+text-align: center;
+
+padding: 25px;
+
+margin-top: 40px;
+
+background: #a3b4eb;
+}
